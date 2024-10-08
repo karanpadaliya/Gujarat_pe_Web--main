@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Normal Navbar Style */
+.container-fluid {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+  }
+  /* Navbar background color when scrolled */
+  .container-fluid.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background color */
+    transition: background-color 0.5s ease; /* Smooth transition */
+  }
+  .navbar {
+    /* padding: 10px 20px; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    background-color: #f2fafc42;
+  }
+  .navbar-brand, .nav-link {
+    color: #1f284e;
+    transition: color 0.5s ease;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .navbar-brand, .nav-link:hover{
+    color: #9b070e;
+  }
+
+  
